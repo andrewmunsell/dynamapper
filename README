@@ -1,0 +1,3 @@
+# DynaMapper
+
+DynaMapper is a DynamoDB Document Mapper utility that utilizes the native SDK's DocumentClient to perform the actual DynamoDB operations. DynaMapper wraps this functionality by adding in new convenient behavior such as auto-pagination and parallelization, as well as ORM-like models.
