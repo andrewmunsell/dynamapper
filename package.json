@@ -1,0 +1,29 @@
+{
+  "name": "dynamapper",
+  "version": "1.0.0",
+  "description": "DynamoDB object mapper",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive -r module-alias/register test/*"
+  },
+  "engines": {
+    "node": "^6.4.0"
+  },
+  "keywords": [
+    "DynamoDB"
+  ],
+  "author": "Andrew Munsell <andrew@wizardapps.net>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.50.0",
+    "module-alias": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0"
+  },
+  "_moduleAliases": {
+    "@src": "./src"
+  }
+}
